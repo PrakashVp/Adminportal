@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  
+ 
+}
+
+.container{
+  display: flex;
+  
+}
+
+main {
+  width: 200%;
+  padding: 20px;
+  color:black;
+}
+
+.sidebar{
+  background: rgb(13, 184, 214);
+  color:#000;
+  height: 100vh;
+  width: 100vh;
+  transition: all 0.5s;
+}
+
+.top_section{
+  display: flex;
+  align-items: center;
+  padding-top: 0%
+}
+
+.bars {
+  color: black;
+  display: flex;
+  font-size: 25px;
+  margin-left: 10px;
+  padding-right: 0%;
+  align-items: center;
+
+}
+
+.logo{
+  font-size: 30px;
+
+}
+
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: black;
+  color: white;
+  transition: all 0.5s;
+  padding-left: 0%;
+}
+.active{
+  background: lightblue;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+
+.wendtlogo{
+  height: 5vh;
+  width: 30px;
+  padding-top: 5%;
+
+}

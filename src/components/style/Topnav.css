@@ -1,0 +1,166 @@
+.wrapper {
+    width: 100%;
+    max-width: 31.25rem;
+    margin-left: 500px;
+  
+
+  }
+.header{
+  height: 50px;
+  margin-bottom: 2px;
+  width: 95%;
+  position: fixed;
+  background-color: green;
+  margin-bottom: 30%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+  .searchBar {
+    width: 100%;
+    margin-right: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 0;
+   
+  }
+
+  .searchQueryInput {
+    width: 50%;
+    height: 2rem;
+    background: #f5f5f5;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.699);
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+    margin-left: 10%;
+    top: 0;
+    bottom: 0;
+  }
+  
+ .searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  .searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+  
+  /* .label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+    margin-left: 31.5%;
+  } */
+
+  /*********************TODO***********************/
+
+
+ 
+ /******************NOTIFICATION**************/
+
+ .notifi-icon{
+    color: black;
+   margin: 1% 10%;
+   position: absolute;
+   font-size: 23px;
+  
+   right: 0;
+   cursor: pointer;
+   vertical-align: middle;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   padding-block: .1rem;
+   margin-block: 1rem;
+   flex-wrap: wrap;
+   border: 1px solid rgba(0, 0, 0, 0.068);
+} 
+
+.badge{
+    color: red;
+   margin: 1% 10%;
+   position: absolute;
+   font-size: 20px;
+   top: 0;
+   right: 0;
+   vertical-align: middle;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   border: 1px solid black;
+ 
+}
+
+.notify{
+     display: flex;
+    position: fixed;
+    flex-direction: column;
+    inset: 0 70% 0 0;
+    width: 16%;
+    background-color: white;
+    float: right;
+}
+
+.notify-mobile{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    inset: 0 96% 0 0;
+    background-color:white;
+    float: right;
+}
+
+.notify-menu {
+    color: black;
+    margin-block: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+
+   
+}
+
+.notify-Close-icon{
+    color: black;
+    margin-block: 1rem;
+    cursor: pointer;
+    font-size: 30px;
+} 
+
+
+
+nav .notify-ul-item{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+nav .notify-ul-item.oicon a{
+    display: none;
+}
+
+nav .notify-ul-item.oicon li::after{
+    content:'';
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    background-color: black;
+    right: 0;
+}
+nav .notify-ul-item li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    padding-block: .5rem;
+   margin-block: 1rem;
+}
